@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Covid tracker: all US cases</title>
+
+	<script src="https://d3js.org/d3.v6.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/billboard.js/3.3.0/billboard.min.js"></script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/billboard.js/3.3.0/billboard.min.css" />
+
+	<style>
+	div.chart { width: 90%; margin: auto; }
+	body { font-family: sans-serif; margin: 1em; }
+	</style>
+</head>
+
+<body>
+	<h1>Covid tracker</h2>
+
+	<h2>Covid cases, US</h2>
+	<div class="chart" id="covid-all-us-cases"></div>
+
+	<script src="./covid-all-us-cases.js"></script>
+	<!-- <script>
+	bb.generate({
+  bindto: "#covid-all-us-cases",
+  data: {
+    type: "line",
+    columns: [
+      [ "data", 10, 40, 20 ]
+    ]
+  }
+});
+</script> -->
+</body>
+
+</html>
